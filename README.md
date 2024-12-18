@@ -39,7 +39,7 @@ WHERE `hour` >= '14:00:00' AND `date` = '2020-06-20';
 ``` sql
 SELECT *
 FROM `degrees`
-WHERE `name` LIKE '%magistrale%';
+WHERE `level` = 'magistrale';
 ```
 
 ### 7. Da quanti dipartimenti è composta l'università? (12)
