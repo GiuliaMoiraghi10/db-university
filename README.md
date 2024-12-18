@@ -67,3 +67,9 @@ UPDATE `teachers`
 SET `office_number` = 126 
 WHERE `surname` LIKE 'Rizzo';
 ```
+
+### 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
+``` sql
+DELETE FROM `students`
+WHERE `id` = 8888;
+```
