@@ -13,3 +13,10 @@ SELECT COUNT(*) AS `same_office_address`, `office_address`
 FROM `teachers`
 GROUP BY `office_address`
 ```
+
+### 3. Calcolare la media dei voti di ogni appello d'esame
+``` sql
+SELECT AVG(`vote`) AS `media_vote`, `student_id`
+FROM `exam_student`
+GROUP BY `student_id`
+```
